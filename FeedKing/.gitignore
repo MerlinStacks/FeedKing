@@ -1,0 +1,53 @@
+# WordPress
+*.log
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-config.php
+
+# Thumbs
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder Old Build
+_build/
+build/
+dist/
+
+# Package Managers
+node_modules/
+vendor/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# IDE specific
+.idea/
+.project
+.classpath
+.settings/
+*.swp
+*~
+.vscode/
+
+# Operating System Files
+.DS_Store
+.Spotlight-V100
+.Trashes
+Desktop.ini
+
+# PHPCS
+phpcs.xml
+phpcs.xml.dist
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z 
